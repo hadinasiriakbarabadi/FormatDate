@@ -6,6 +6,7 @@ import { FormatDate, FormatNumber, FORMAT_NUMBER } from 'pl-decorator';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
   title = 'formatDate';
   @FormatNumber([FORMAT_NUMBER.AR])
